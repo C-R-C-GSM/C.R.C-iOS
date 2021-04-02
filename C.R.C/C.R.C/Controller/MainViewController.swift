@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  C.R.C
 //
 //  Created by 조주혁 on 2021/03/08.
@@ -8,7 +8,7 @@
 import UIKit
 import Alamofire
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     @IBOutlet weak var sumPerson: UILabel!
     @IBOutlet weak var currentPerson: UILabel!
