@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD31652B26041EC400A26612 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BD31652A26041EC400A26612 /* Alamofire */; };
 		BD51BFD5261695BD00AB4534 /* CRCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD51BFD4261695BD00AB4534 /* CRCModel.swift */; };
+		BD74509A261AB32F00E1763F /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = BD745099261AB32F00E1763F /* NVActivityIndicatorView */; };
 		BDAC288125F5CC6D0047DFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC288025F5CC6D0047DFF8 /* AppDelegate.swift */; };
 		BDAC288325F5CC6D0047DFF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC288225F5CC6D0047DFF8 /* SceneDelegate.swift */; };
 		BDAC288525F5CC6D0047DFF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC288425F5CC6D0047DFF8 /* MainViewController.swift */; };
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD74509A261AB32F00E1763F /* NVActivityIndicatorView in Frameworks */,
 				BD31652B26041EC400A26612 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +124,7 @@
 			name = C.R.C;
 			packageProductDependencies = (
 				BD31652A26041EC400A26612 /* Alamofire */,
+				BD745099261AB32F00E1763F /* NVActivityIndicatorView */,
 			);
 			productName = C.R.C;
 			productReference = BDAC287D25F5CC6D0047DFF8 /* C.R.C.app */;
@@ -152,6 +155,7 @@
 			mainGroup = BDAC287425F5CC6D0047DFF8;
 			packageReferences = (
 				BD31652926041EC400A26612 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BD745098261AB32F00E1763F /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
 			);
 			productRefGroup = BDAC287E25F5CC6D0047DFF8 /* Products */;
 			projectDirPath = "";
@@ -393,6 +397,14 @@
 				minimumVersion = 5.4.1;
 			};
 		};
+		BD745098261AB32F00E1763F /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -400,6 +412,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BD31652926041EC400A26612 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		BD745099261AB32F00E1763F /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD745098261AB32F00E1763F /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
