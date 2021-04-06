@@ -95,7 +95,7 @@
                                 <color key="backgroundColor" name="Second Color"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L22-bX-F0d">
-                                <rect key="frame" x="347" y="174" width="18" height="22"/>
+                                <rect key="frame" x="348" y="185" width="18" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" image="arrow.clockwise" catalog="system"/>
@@ -107,7 +107,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="Primary Color"/>
                     </view>
-                    <navigationItem key="navigationItem" title="C.R.C." id="jkA-N1-6Oc"/>
+                    <navigationItem key="navigationItem" title="C.R.C." prompt=" " id="jkA-N1-6Oc"/>
                     <connections>
                         <outlet property="currentPerson" destination="Ebu-1k-AEd" id="TSw-Df-dp0"/>
                         <outlet property="leftPerson" destination="144-HD-zMS" id="3BR-zZ-Dwr"/>
