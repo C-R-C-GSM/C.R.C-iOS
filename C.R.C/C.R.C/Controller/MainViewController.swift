@@ -14,6 +14,41 @@ class MainViewController: UIViewController {
     @IBOutlet weak var currentPerson: UILabel!
     @IBOutlet weak var leftPerson: UILabel!
     
+    @IBOutlet weak var sumPersonView: UIView! {
+        didSet {
+            sumPersonView.layer.cornerRadius = 15
+        }
+    }
+    @IBOutlet weak var currentPersonView: UIView! {
+        didSet {
+            currentPersonView.layer.cornerRadius = 15
+        }
+    }
+    @IBOutlet weak var leftPersonView: UIView! {
+        didSet {
+            leftPersonView.layer.cornerRadius = 15
+        }
+    }
+    @IBOutlet weak var sumPersonImageView: UIView! {
+        didSet {
+            sumPersonImageView.layer.cornerRadius = 28
+        }
+    }
+    @IBOutlet weak var currentPersonImageView: UIView! {
+        didSet {
+            currentPersonImageView.layer.cornerRadius = 28
+        }
+    }
+    @IBOutlet weak var leftPersonImageView: UIView! {
+        didSet {
+            leftPersonImageView.layer.cornerRadius = 28
+        }
+    }
+    @IBOutlet weak var refreshBtn: UIButton! {
+        didSet {
+            refreshBtn.layer.cornerRadius = 20
+        }
+    }
     var model: CRCModel?
     
     override func viewDidLoad() {

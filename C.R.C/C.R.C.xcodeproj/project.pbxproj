@@ -10,6 +10,7 @@
 		BD31652B26041EC400A26612 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BD31652A26041EC400A26612 /* Alamofire */; };
 		BD51BFD5261695BD00AB4534 /* CRCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD51BFD4261695BD00AB4534 /* CRCModel.swift */; };
 		BD74509A261AB32F00E1763F /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = BD745099261AB32F00E1763F /* NVActivityIndicatorView */; };
+		BD934636261C583600F784A2 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD934635261C583600F784A2 /* NotoSansKR-Medium.otf */; };
 		BDAC288125F5CC6D0047DFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC288025F5CC6D0047DFF8 /* AppDelegate.swift */; };
 		BDAC288325F5CC6D0047DFF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC288225F5CC6D0047DFF8 /* SceneDelegate.swift */; };
 		BDAC288525F5CC6D0047DFF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC288425F5CC6D0047DFF8 /* MainViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		BD51BFD4261695BD00AB4534 /* CRCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCModel.swift; sourceTree = "<group>"; };
+		BD934635261C583600F784A2 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Medium.otf"; path = "../../../../../../Downloads/Noto_Sans_KR/NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
 		BDAC287D25F5CC6D0047DFF8 /* C.R.C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C.R.C.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAC288025F5CC6D0047DFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDAC288225F5CC6D0047DFF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 			path = Stroyboard;
 			sourceTree = "<group>";
 		};
+		BD934634261C57D800F784A2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BD934635261C583600F784A2 /* NotoSansKR-Medium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		BDAC287425F5CC6D0047DFF8 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		BDAC287F25F5CC6D0047DFF8 /* C.R.C */ = {
 			isa = PBXGroup;
 			children = (
+				BD934634261C57D800F784A2 /* Font */,
 				BD51BFD82616A3FC00AB4534 /* Model */,
 				BD51BFD92616A42F00AB4534 /* Controller */,
 				BD51BFDB2616A46700AB4534 /* View */,
@@ -171,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD934636261C583600F784A2 /* NotoSansKR-Medium.otf in Resources */,
 				BDAC288D25F5CC6E0047DFF8 /* LaunchScreen.storyboard in Resources */,
 				BDAC288A25F5CC6E0047DFF8 /* Assets.xcassets in Resources */,
 				BDAC288825F5CC6D0047DFF8 /* Main.storyboard in Resources */,
@@ -335,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT86278469;
 				INFOPLIST_FILE = C.R.C/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT86278469;
 				INFOPLIST_FILE = C.R.C/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
