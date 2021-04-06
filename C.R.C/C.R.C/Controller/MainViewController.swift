@@ -17,16 +17,31 @@ class MainViewController: UIViewController {
     @IBOutlet weak var sumPersonView: UIView! {
         didSet {
             sumPersonView.layer.cornerRadius = 15
+            sumPersonView.layer.shadowOpacity = 1
+            sumPersonView.layer.shadowColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.1).cgColor
+            sumPersonView.layer.shadowOffset = CGSize(width: 0, height: 4)
+            sumPersonView.layer.shadowRadius = 4
+            sumPersonView.layer.masksToBounds = false
         }
     }
     @IBOutlet weak var currentPersonView: UIView! {
         didSet {
             currentPersonView.layer.cornerRadius = 15
+            currentPersonView.layer.shadowOpacity = 1
+            currentPersonView.layer.shadowColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.1).cgColor
+            currentPersonView.layer.shadowOffset = CGSize(width: 0, height: 4)
+            currentPersonView.layer.shadowRadius = 4
+            currentPersonView.layer.masksToBounds = false
         }
     }
     @IBOutlet weak var leftPersonView: UIView! {
         didSet {
             leftPersonView.layer.cornerRadius = 15
+            leftPersonView.layer.shadowOpacity = 1
+            leftPersonView.layer.shadowColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.1).cgColor
+            leftPersonView.layer.shadowOffset = CGSize(width: 0, height: 4)
+            leftPersonView.layer.shadowRadius = 4
+            leftPersonView.layer.masksToBounds = false
         }
     }
     @IBOutlet weak var sumPersonImageView: UIView! {
