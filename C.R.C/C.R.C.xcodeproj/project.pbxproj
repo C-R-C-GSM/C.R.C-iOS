@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD246F56263170850096EEA3 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = BD246F55263170850096EEA3 /* SocketIO */; };
 		BD31652B26041EC400A26612 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BD31652A26041EC400A26612 /* Alamofire */; };
 		BD51BFD5261695BD00AB4534 /* CRCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD51BFD4261695BD00AB4534 /* CRCModel.swift */; };
 		BD74509A261AB32F00E1763F /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = BD745099261AB32F00E1763F /* NVActivityIndicatorView */; };
@@ -39,6 +40,7 @@
 			files = (
 				BD74509A261AB32F00E1763F /* NVActivityIndicatorView in Frameworks */,
 				BD31652B26041EC400A26612 /* Alamofire in Frameworks */,
+				BD246F56263170850096EEA3 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +138,7 @@
 			packageProductDependencies = (
 				BD31652A26041EC400A26612 /* Alamofire */,
 				BD745099261AB32F00E1763F /* NVActivityIndicatorView */,
+				BD246F55263170850096EEA3 /* SocketIO */,
 			);
 			productName = C.R.C;
 			productReference = BDAC287D25F5CC6D0047DFF8 /* C.R.C.app */;
@@ -167,6 +170,7 @@
 			packageReferences = (
 				BD31652926041EC400A26612 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				BD745098261AB32F00E1763F /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				BD246F54263170850096EEA3 /* XCRemoteSwiftPackageReference "socket" */,
 			);
 			productRefGroup = BDAC287E25F5CC6D0047DFF8 /* Products */;
 			projectDirPath = "";
@@ -403,6 +407,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BD246F54263170850096EEA3 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 16.0.1;
+			};
+		};
 		BD31652926041EC400A26612 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -422,6 +434,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BD246F55263170850096EEA3 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD246F54263170850096EEA3 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
 		BD31652A26041EC400A26612 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BD31652926041EC400A26612 /* XCRemoteSwiftPackageReference "Alamofire" */;
